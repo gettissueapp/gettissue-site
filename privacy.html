@@ -1,42 +1,126 @@
-Privacy Policy
-Tissue · Last updated: August 2026
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Tissue</title>
+<meta name="description" content="How the Tissue toilet-finder app collects, uses and protects your data.">
+<style>
+  :root { --green: #1D9E75; --ink: #2C2C2A; --muted: #6B6A66; --line: #E8E6E0; --bg: #FFFFFF; --soft: #F4FAF7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #EDECE8; --muted: #A9A7A0; --line: #34332F; --bg: #1A1A18; --soft: #1F2A25; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  .brand { color: var(--green); font-weight: 800; font-size: 20px; text-decoration: none; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 24px 0 4px; }
+  .updated { color: var(--muted); margin: 0 0 24px; }
+  .summary { background: var(--soft); border-radius: 14px; padding: 16px 20px; margin: 0 0 32px; }
+  .summary p { margin: 0 0 8px; font-weight: 600; }
+  .summary ul { margin: 0; padding-left: 20px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 12px; border-top: 1px solid var(--line); }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--green); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  @media (max-width: 520px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 2px 0; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } td:first-child { font-weight: 600; } }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="/">🧻 Tissue</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 8 November 2026</p>
 
-1. Who we are
-Tissue is a free toilet-finding app operated by Jamie Wain (“we”, “us”, “our”). Our website is gettissue.co.uk. If you have any questions about this policy, contact us at hello@gettissue.co.uk.
+  <div class="summary">
+    <p>The short version</p>
+    <ul>
+      <li>We use your location to show toilets near you. If you turn on nearby alerts, we also keep your most recent location (not a history) so we can tell you about new toilets close by.</li>
+      <li>Your accessibility settings (like needing an accessible toilet or having a RADAR key) stay on your phone. They're never sent to us.</li>
+      <li>We don't sell your data, show adverts or use tracking or analytics tools.</li>
+      <li>You can delete your account and data at any time from inside the app.</li>
+    </ul>
+  </div>
 
-2. What data we collect
-We collect the following data when you use Tissue:
+  <h2>1. Who we are</h2>
+  <p>Tissue is a toilet-finding app run by Jamie Wain (“we”, “us”, “our”). We are the data controller for the personal data described in this policy. Questions or requests: <a href="mailto:hello@gettissue.co.uk">hello@gettissue.co.uk</a>.</p>
 
-Email address — collected when you create an account.
-Location — your approximate location is used to find nearby toilets and, if you opt in to notifications, to determine whether a newly submitted toilet is close to you. We do not store a continuous location history.
-Push notification token — if you enable notifications, we store a device token alongside your last known location so we can notify you about nearby toilet submissions.
-Toilet submissions — if you submit a toilet, we store the details you provide (location, name, attributes) along with your user ID.
-Ratings and verifications — if you rate or verify a toilet, we store that rating linked to your user ID.
-3. How we use your data
-We use your data only to operate the app:
+  <h2>2. What we collect and why</h2>
 
-To authenticate your account.
-To show you nearby toilets based on your location.
-To send you push notifications about toilets submitted near you (only if you have enabled notifications).
-To display community ratings and verifications.
-We do not sell your data. We do not use your data for advertising.
+  <h3>Without an account</h3>
+  <ul>
+    <li><strong>Your location</strong>, while you're using the app, to find and sort nearby toilets. It's used to look up toilets and isn't stored against you.</li>
+  </ul>
 
-4. Data storage
-Your data is stored securely using Supabase (supabase.com), hosted in the EU. Push notification tokens are delivered via Expo’s push notification service (expo.dev). We retain account data for as long as your account is active. You may request deletion at any time by contacting us.
+  <h3>If you create an account</h3>
+  <ul>
+    <li><strong>Email address and password</strong>, to sign you in. Passwords are stored securely (hashed) by our database provider; we can't see them.</li>
+    <li><strong>Display name</strong> (optional). Used in invites you send. It may be visible to other users alongside things you contribute.</li>
+    <li><strong>Toilets you add</strong>: the location, name, facilities, opening hours, access details and notes you enter.</li>
+    <li><strong>Ratings and reviews</strong>. Review text is shown to other users.</li>
+    <li><strong>Verifications, accessibility answers and issue reports</strong>, such as confirming a toilet exists, saying whether it's step-free or needs a RADAR key, or reporting it closed. Other users only see combined totals, never who answered.</li>
+  </ul>
 
-5. Third-party services
-Supabase — authentication and database (supabase.com/privacy).
-Expo — build infrastructure and push notifications (expo.dev/privacy).
-OpenStreetMap / Overpass API — toilet location data (openstreetmap.org/copyright). We do not share your personal data with OpenStreetMap.
-Apple Maps — directions (opened externally when you tap “Take me there”). Apple’s privacy policy applies once you leave the app.
-6. Your rights
-You have the right to access, correct, or delete your personal data at any time. To exercise these rights, email us at hello@gettissue.co.uk. We will respond within 30 days.
+  <h3>If you turn on nearby alerts</h3>
+  <ul>
+    <li><strong>A push notification token</strong> for your device, so we can send you alerts.</li>
+    <li><strong>Your most recent location, including in the background</strong>. With your permission, the app updates your last known location even when it's closed, so we can tell you when a new toilet is submitted near you (within about 250 metres) and ask you to help verify it. Each update replaces the previous one: we don't keep a location history. You can turn this off at any time in your phone's Settings (Location → Tissue) or by turning off notifications.</li>
+  </ul>
 
-7. Children
-Tissue is not directed at children under 13. We do not knowingly collect data from children under 13.
+  <h3>Stored only on your phone</h3>
+  <ul>
+    <li>Your preferences: needing an accessible toilet, step-free access, a RADAR key, baby changing, cleanliness priority, and similar settings. These are used on your phone to choose the best toilet for you and are not sent to us.</li>
+    <li>A temporary copy of recently loaded toilets, so the app opens quickly.</li>
+  </ul>
 
-8. Changes to this policy
-We may update this policy from time to time. We will notify you of significant changes via the app or by email. The current version is always available at gettissue.co.uk/privacy.
+  <h2>3. Our legal basis (UK GDPR)</h2>
+  <table>
+    <thead><tr><th>What</th><th>Legal basis</th></tr></thead>
+    <tbody>
+      <tr><td>Finding toilets near you; running your account; saving what you contribute</td><td>Providing the service you've asked for (contract)</td></tr>
+      <tr><td>Background location and nearby alerts</td><td>Your consent, which you can withdraw at any time in your phone's settings</td></tr>
+      <tr><td>Keeping toilet information accurate (verifications, reports, combining answers) and keeping the service secure</td><td>Our legitimate interests in running a reliable, trustworthy service</td></tr>
+    </tbody>
+  </table>
 
-9. Contact
-For any privacy questions or requests, contact us at hello@gettissue.co.uk.
+  <h2>4. Who we share data with</h2>
+  <p>We don't sell your data or share it for advertising. We use these service providers to run Tissue:</p>
+  <ul>
+    <li><strong>Supabase</strong>: our database, sign-in and server functions, hosted in the EU (Frankfurt). <a href="https://supabase.com/privacy">Privacy policy</a></li>
+    <li><strong>Expo</strong>: app updates and delivering push notifications, together with Apple's and Google's notification services. Expo is based in the US; transfers are protected by appropriate safeguards. <a href="https://expo.dev/privacy">Privacy policy</a></li>
+    <li><strong>OpenStreetMap / Overpass API</strong>: most toilet data comes from OpenStreetMap and is stored on our own database. If you're somewhere our database doesn't cover (outside the UK and Europe), the app sends your approximate location to a public Overpass server to look up nearby toilets. No account or personal details are sent with it. <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a></li>
+    <li><strong>Netlify</strong>: hosts our invite web page. Invite links include the display name of the person who sent them.</li>
+    <li><strong>Apple Maps or Google Maps</strong>: when you tap “Take me there”, your maps app opens and its own privacy policy applies.</li>
+  </ul>
+  <p>We may also disclose information if required by law.</p>
+
+  <h2>5. How long we keep it</h2>
+  <ul>
+    <li>Account data and your contributions are kept while your account is open.</li>
+    <li><strong>Delete your account in the app</strong> (Profile → Delete account). This permanently deletes your account, profile, ratings, reviews, toilets you added, verifications, accessibility answers, push token and stored location.</li>
+    <li>Issue reports you made are kept to keep toilet information accurate, but are no longer linked to you.</li>
+    <li>Toilets already confirmed by the community may stay on the map without any link to you.</li>
+  </ul>
+
+  <h2>6. Your rights</h2>
+  <p>Under UK data protection law you can ask to access, correct, delete or receive a copy of your data, object to or restrict how we use it, and withdraw consent at any time. Email <a href="mailto:hello@gettissue.co.uk">hello@gettissue.co.uk</a> and we'll reply within one month.</p>
+  <p>If you're unhappy with how we've handled your data, you can complain to the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk</a>, though we'd appreciate the chance to sort it out first.</p>
+
+  <h2>7. Security</h2>
+  <p>Data is encrypted in transit, access to our database is restricted, and each user can only change their own data. No system is perfectly secure, but we take reasonable steps to protect your information.</p>
+
+  <h2>8. Children</h2>
+  <p>Tissue isn't aimed at children under 13, and we don't knowingly collect their personal data. If you think a child has given us data, contact us and we'll delete it.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We'll update this page if anything changes and tell you in the app or by email about significant changes. The latest version is always at <a href="https://gettissue.co.uk/privacy">gettissue.co.uk/privacy</a>.</p>
+
+  <h2>10. Contact</h2>
+  <p><a href="mailto:hello@gettissue.co.uk">hello@gettissue.co.uk</a></p>
+</main>
+</body>
+</html>
